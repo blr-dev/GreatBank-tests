@@ -1,0 +1,27 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+    display: none !important;
+}
+
+/* read only fields */
+.field-readonly {
+    display: block;
+    border: 1px solid #dbd9d9;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    padding: 6px 20px;
+    min-height: 35px;
+    width: 100%;
+    background-color: #EDF1F2;
+}
